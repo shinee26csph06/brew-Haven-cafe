@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>My Dashboard | Brew Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="navbar">
+    <a class="logo" href="/">Brew Haven ☕</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <button id="logoutButton" class="btn small-btn" type="button">Logout</button>
+    </div>
+  </nav>
+
+  <main class="dashboard">
+    <section class="welcome-card">
+      <p class="eyebrow">YOUR PERSONAL CAFE SPACE</p>
+      <h1 id="welcomeName">Welcome!</h1>
+      <p>We're happy to have you at Brew Haven Cafe.</p>
+      <p id="userEmail" class="muted"></p>
+    </section>
+
+    <section class="section">
+      <p class="eyebrow">YOUR NEXT COFFEE BREAK</p>
+      <h2>Explore Our Menu</h2>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <div class="food-icon">☕</div>
+          <h3>Cappuccino</h3>
+          <p>A classic espresso and milk favorite.</p>
+          <strong>₹180</strong>
+        </article>
+
+        <article class="menu-card">
+          <div class="food-icon">🧋</div>
+          <h3>Cold Coffee</h3>
+          <p>Your refreshing afternoon treat.</p>
+          <strong>₹160</strong>
+        </article>
+
+        <article class="menu-card">
+          <div class="food-icon">🥐</div>
+          <h3>Butter Croissant</h3>
+          <p>Perfect alongside your coffee.</p>
+          <strong>₹120</strong>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Brew Haven Cafe</footer>
+</body>
+</html>

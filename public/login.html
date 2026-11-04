@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Login | Brew Haven</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="auth-page">
+  <nav class="navbar">
+    <a class="logo" href="/">Brew Haven ☕</a>
+    <div class="nav-links"><a href="/">Home</a><a href="/register.html">Register</a></div>
+  </nav>
+
+  <main class="auth-card">
+    <p class="eyebrow">YOUR COFFEE CORNER AWAITS</p>
+    <h1>Welcome Back!</h1>
+    <p class="muted">Log in to visit your dashboard.</p>
+
+    <form id="loginForm">
+      <label for="loginEmail">Email address</label>
+      <input id="loginEmail" name="email" type="email" placeholder="you@example.com" required autocomplete="email">
+
+      <label for="loginPassword">Password</label>
+      <input id="loginPassword" name="password" type="password" placeholder="Enter your password" required autocomplete="current-password">
+
+      <button class="btn full-width" type="submit">Login</button>
+      <p id="loginMessage" class="message" role="status"></p>
+    </form>
+
+    <p class="muted">New to Brew Haven? <a href="/register.html">Create an account</a></p>
+  </main>
+</body>
+</html>
